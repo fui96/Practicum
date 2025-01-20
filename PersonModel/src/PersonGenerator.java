@@ -28,7 +28,7 @@ public class PersonGenerator {
             Cont = SafeInput.getYNConfirm(in,"Do you want to continue? (Y/N)");
         }while(Cont);
         //Write output to file
-        String Workingdir = System.getProperty("user.dir") + "/src";
+        String Workingdir = System.getProperty("user.dir") + "/PersonModel/src";
         String OutputFile = SafeInput.getNonZeroLenString(in,"Please enter the output file name without file extension") + ".txt";
         OutputFile = Workingdir + File.separator + OutputFile;
         try {
