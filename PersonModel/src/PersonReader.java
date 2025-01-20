@@ -13,7 +13,7 @@ public class PersonReader {
         ArrayList<String[]> Entries = new ArrayList<>();
 
         try{
-            File WorkingDir = new File(System.getProperty("user.dir") + "/src");
+            File WorkingDir = new File(System.getProperty("user.dir") + "/PersonModel/src");
             fileChooser.setCurrentDirectory(WorkingDir);
             if(fileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION){
                 selectedFile = fileChooser.getSelectedFile();
